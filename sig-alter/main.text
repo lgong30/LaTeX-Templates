@@ -1,0 +1,30 @@
+\documentclass{libs/sig-alternate-05-2015}
+
+%% packages
+\input{libs/packets}
+
+%% figure and table
+\input{libs/figure_conf}
+\input{libs/table_conf}
+
+%% title and authors
+\input{sections/title_and_authors}
+
+\begin{document}
+\maketitle
+
+%% abstract
+\input{sections/abstract}
+%% introduction
+\input{sections/introduction}
+
+
+\newpage
+%% references
+\bibliography{bibs/references}
+\bibliographystyle{abbrv}
+
+%% put appendix here (if applicable)
+
+
+\end{document}
